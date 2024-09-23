@@ -112,6 +112,12 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
+      {% if author.weixin %}
+      <li><a href="{{ author.weixin }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> Weixin</a></li>
+      {% endif %}
+      {% if author.zhihu %}
+      <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu" aria-hidden="true"></i> Zhihu</a></li>
+      {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
@@ -182,6 +188,12 @@
       {% endif %}
       {% if author.youtube %}
         <a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.weixin %}
+        <a href="{{ author.weixin }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.zhihu %}
+        <a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.soundcloud %}
         <a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i></a>

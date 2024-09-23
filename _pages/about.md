@@ -42,7 +42,7 @@ My research interest includes robotic exploration, especially multi-rotor UAV pl
 
 Xiaolei Hou †,**Zheng Pan †**,Li Lu,Yuhang Wu,Jinwen Hu,Yang Lyu andChunhui Zhao (**First student author**)
 
-Reference material: [**PDF**](https://www.mdpi.com/2504-446X/8/4/128/pdf?version=1711707638)   [**Youtube**](https://youtu.be/_a1Vl518Ra8)   [**Github**](https://github.com/Poaos/LAEA)     <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+Reference material: [**PDF**](https://www.mdpi.com/2504-446X/8/4/128/pdf?version=1711707638)    [**Youtube**](https://youtu.be/_a1Vl518Ra8)   [**Github**](https://github.com/Poaos/LAEA)     ![Github stars](https://img.shields.io/github/stars/Poaos/LAEA.svg)   <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the environment and generates a hybrid map that characterizes the exploration value of the surrounding environment using multi-sensor data. Based on the hybrid map, small and isolated frontier clusters that can lead to repeated movements are quickly detected, and their access in prioritized.
 </div>

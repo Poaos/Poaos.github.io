@@ -66,4 +66,4 @@ Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the
 
 <!-- permalink: /project1/ -->
 <!-- 不得行... 排版是乱的 -->
-<!-- About my zhihu [Details about zhihu](/project1/) -->
+About my zhihu [Details about zhihu](/project1/)

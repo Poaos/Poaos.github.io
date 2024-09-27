@@ -1,5 +1,7 @@
 ---
 permalink: /project1/
+# 布局
+layout: default
 title: "知乎"
 excerpt: "知乎主要文章内容速览"
 author_profile: false

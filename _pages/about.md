@@ -63,3 +63,6 @@ Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the
 
 
 # 🔍 Other Projects
+
+<!-- permalink: /zhihu/ -->
+About my zhihu [Details about zhihu](/zhihu/)

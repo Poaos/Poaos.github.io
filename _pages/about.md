@@ -31,8 +31,25 @@ My research interest includes robotic exploration, especially multi-rotor UAV pl
 
 # 🔍 Main Projects
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Drones 2024</div><img src='images/GIF/2023-6-11-fly' alt="sym" width="100%"></div></div>
-Fixed wing real fly -->
+<!-- project 1 -->
+## Fixed-wing real fly
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div class="badge">2022.08 - 2023.06</div>
+<img src='images/GIF/2023-6-11-fly.gif' alt="sym" width="100%">
+</div>
+<div class='paper-box-text' markdown="1">
+
+xxxx.
+</div><div markdown="1">
+
+**Finished Works**:
+1. xxx.
+2. xxxx.
+
+</div>
+</div>
+
 
 
 # 📝 Publications 

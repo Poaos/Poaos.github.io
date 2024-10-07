@@ -40,7 +40,8 @@ My research interest includes robotic exploration, especially multi-rotor UAV pl
 </div>
 <div class='paper-box-text' markdown="1">
 
-xxxx.
+[waiting for update ....]LAEA utilizes 2D LiDAR to quickly acquire contour information from the environment and generates a hybrid map that characterizes the exploration value of the surrounding environment using multi-sensor data. Based on the hybrid map, small and isolated frontier clusters that can lead to repeated movements are quickly detected, and their access in prioritized. .
+
 </div><div markdown="1">
 
 **Finished Works**:

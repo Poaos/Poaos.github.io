@@ -31,8 +31,9 @@ My research interest includes robotic exploration, especially multi-rotor UAV pl
 
 # 🔍 Main Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Drones 2024</div><img src='images/GIF/2023-6-11-fly' alt="sym" width="100%"></div></div>
-Fixed wing real fly
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Drones 2024</div><img src='images/GIF/2023-6-11-fly' alt="sym" width="100%"></div></div>
+Fixed wing real fly -->
+
 
 # 📝 Publications 
 <!-- https://api.github.com/repos/Poaos/LAEA stargazers_count -->

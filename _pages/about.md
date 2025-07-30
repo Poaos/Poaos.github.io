@@ -134,9 +134,11 @@ Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the
 </div>
 </div>
 
+- *2025.2* STEAM: Super Viewpoint and Topological Map Based Efficient Autonomous Exploration Method (Manuscript submitted to IEEE T-ITS )
 
 # 🎖 Honors and Awards
 
+- *2024.12* Chinese National Scholarship for Graduate Students (Master’s)
 - *2024.07* “Fly Aerospace Cup” Equipment Intelligent Design Competition Unmanned Swarm Challenge Second Place
 - *2024.07* China International Student Innovation Competition Industrial Circuit Shaanxi Province Provincial Prize
 - *2024.05* Shanxi Province 8th Graduate Student Innovation Achievement Exhibition First Prize on Campus
@@ -149,6 +151,11 @@ Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the
 
 
 # 🔍 Other Projects
+
+- *2024.01 – 2025.01* Practice and Innovation Capability Cultivation Fund for Graduate Students, NPU (PI, No. PF2024074), Autonomous Exploration and Target Search for Rotorcraft UAVs in Complex Unknown Environments.
+
+- *2024.12 – 2025.11* Industry-Education Collaboration Project, Ministry of Education (PI, No. J2160012), Concrete Inspection Pioneer: Apparent Defect Detection Robot for Large Bridges.
+
 
 <!-- project -->
 

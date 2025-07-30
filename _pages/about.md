@@ -142,7 +142,6 @@ Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the
 - *2024.07* “Fly Aerospace Cup” Equipment Intelligent Design Competition Unmanned Swarm Challenge Second Place
 - *2024.07* China International Student Innovation Competition Industrial Circuit Shaanxi Province Provincial Prize
 - *2024.05* Shanxi Province 8th Graduate Student Innovation Achievement Exhibition First Prize on Campus
-- *2024.03* Northwestern Polytechnical University Master's Degree Practical Ability Cultivation Fund (General Project)
 - *2023.05* China Robotics Competition and robocup Open Drone Physical Delivery Competition National Second Prize
 - *2022.10* China Robotics Competition and robocup Open Drone Physical Delivery Competition National Second Prize
 - *2021.05* China College Students Engineering Practice and Innovation Competition Tianjin First Prize (Third Place)

@@ -68,6 +68,8 @@ include:
   - files
 exclude:
   - docs
+  - Dockerfile
+  - compose.yaml
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

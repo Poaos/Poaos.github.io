@@ -120,6 +120,20 @@ In order to enhance the reconnaissance, surveillance and target identification c
 
 
 # 📝 Publications 
+<!-- https://api.github.com/repos/Poaos/SLIDER stargazers_count -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2026</div><img src='images/slider_cover.png' alt="SLIDER target-search framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SLIDER: Sparse History-Guided Aerial Robot Target Search Using Sliding Local Maps](https://ieeexplore.ieee.org/document/11614439)
+
+Xiaolei Hou †, **Zheng Pan †\***, Hua Lan, Zhenghao Zou, Yinhong Chen, Chenxi Zhu, Yang Lyu, Jinwen Hu, and Chunhui Zhao († Equal contribution; \* Corresponding author)
+
+Reference material: [**IEEE**](https://ieeexplore.ieee.org/document/11614439)    [**arXiv**](https://arxiv.org/abs/2607.10553)    [**Youtube**](https://youtu.be/zQBXoAjwBf4)    [**Bilibili**](https://www.bilibili.com/video/BV1ppKV64Ezg)    [**Github**](https://github.com/Poaos/SLIDER)    ![Github stars](https://img.shields.io/github/stars/Poaos/SLIDER.svg)
+
+Abstract: SLIDER is a lightweight, memory-efficient framework for aerial target search in large-scale unknown environments. It combines a sliding local map with sparse global history, evaluates observation quality online from historical poses and sensor models, and incrementally clusters viewpoints to reduce candidate targets and planning cost. A sparse global topological map supports long-range planning, while simulation and real-world flight experiments demonstrate improved memory usage, decision latency, and search efficiency.
+</div>
+</div>
+
 <!-- https://api.github.com/repos/Poaos/LAEA stargazers_count -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Drones 2024</div><img src='images/laea_cover1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -134,7 +148,8 @@ Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the
 </div>
 </div>
 
-- *2025.2* STEAM: Super Viewpoint and Topological Map Based Efficient Autonomous Exploration Method (Manuscript submitted to IEEE T-ITS )
+<!-- - *2025.2* STEAM: Super Viewpoint and Topological Map Based Efficient Autonomous Exploration Method (Manuscript submitted to IEEE T-ITS ) -->
+
 
 # 🎖 Honors and Awards
 

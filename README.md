@@ -58,8 +58,20 @@ Some examples:
 
 ## Debug Locally
 
+### Ubuntu (Docker, recommended)
+
+1. Install Docker Engine and the Docker Compose plugin.
+1. Run `docker compose up --build` in the repository directory.
+1. Open http://127.0.0.1:4000 in your browser. Source changes are rebuilt and reloaded automatically.
+1. Press `Ctrl+C` to stop the preview.
+
+If port 4000 is already occupied, use `JEKYLL_PORT=4001 docker compose up --build` and open http://127.0.0.1:4001 instead.
+
+### Native Ruby
+
 1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
+1. Install Jekyll building environment, including `Ruby 3.2+`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
+1. Run `bundle install`.
 1. Run `bash run_server.sh` to start Jekyll livereload server.
 1. Open http://127.0.0.1:4000 in your browser.
 1. If you change the source code of the website, the livereload server will automatically refresh.

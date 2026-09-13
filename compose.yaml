@@ -1,0 +1,14 @@
+services:
+  site:
+    build:
+      context: .
+      network: host
+      args:
+        HTTP_PROXY: "${HTTP_PROXY:-}"
+        HTTPS_PROXY: "${HTTPS_PROXY:-}"
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    volumes:
+      - .:/site
+    ports:
+      - "${JEKYLL_PORT:-4000}:4000"
+      - "${LIVERELOAD_PORT:-35729}:35729"

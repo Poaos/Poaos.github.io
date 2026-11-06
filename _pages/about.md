@@ -3,6 +3,8 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+lang: en
+translation_key: home
 redirect_from: 
   - /about/
   - /about.html
@@ -30,6 +32,43 @@ My research interest includes robotic exploration, especially multi-rotor UAV pl
 - *2022.09 - now*, [Northwestern Polytechnical University](https://www.nwpu.edu.cn/), Xi'an, (Score: XXX, rank: XX/XXX).
 - *2018.09 - 2022.06*, [Hebei University of Technology](https://www.hebut.edu.cn/), Tianjin, (GPA: XXX, rank: XX/XXX). -->
 
+# 📝 Publications
+<!-- https://api.github.com/repos/Poaos/SLIDER stargazers_count -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2026</div><img src="{{ '/images/slider_cover.png' | relative_url }}" alt="SLIDER target-search framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SLIDER: Sparse History-Guided Aerial Robot Target Search Using Sliding Local Maps](https://ieeexplore.ieee.org/document/11614439)
+
+Xiaolei Hou †, **Zheng Pan †\***, Hua Lan, Zhenghao Zou, Yinhong Chen, Chenxi Zhu, Yang Lyu, Jinwen Hu, and Chunhui Zhao († Equal contribution; \* Corresponding author)
+
+Reference material: [**IEEE**](https://ieeexplore.ieee.org/document/11614439)    [**arXiv**](https://arxiv.org/abs/2607.10553)    [**Youtube**](https://youtu.be/zQBXoAjwBf4)    [**Bilibili**](https://www.bilibili.com/video/BV1ppKV64Ezg)    [**Github**](https://github.com/Poaos/SLIDER)    ![Github stars](https://img.shields.io/github/stars/Poaos/SLIDER.svg)
+
+Abstract: SLIDER is a lightweight, memory-efficient framework for aerial target search in large-scale unknown environments. It combines a sliding local map with sparse global history, evaluates observation quality online from historical poses and sensor models, and incrementally clusters viewpoints to reduce candidate targets and planning cost. A sparse global topological map supports long-range planning, while simulation and real-world flight experiments demonstrate improved memory usage, decision latency, and search efficiency.
+</div>
+</div>
+
+<!-- https://api.github.com/repos/Poaos/LAEA stargazers_count -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Drones 2024</div><img src="{{ '/images/laea_cover1.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LAEA: A 2D LiDAR-Assisted UAV Exploration Algorithm for Unknown Environments](https://www.mdpi.com/2504-446X/8/4/128)
+
+Xiaolei Hou †,**Zheng Pan †**,Li Lu,Yuhang Wu,Jinwen Hu,Yang Lyu andChunhui Zhao (**First student author**)
+
+Reference material: [**PDF**](https://www.mdpi.com/2504-446X/8/4/128/pdf?version=1711707638)    [**Youtube**](https://youtu.be/_a1Vl518Ra8)   [**Github**](https://github.com/Poaos/LAEA)     ![Github stars](https://img.shields.io/github/stars/Poaos/LAEA.svg)   <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the environment and generates a hybrid map that characterizes the exploration value of the surrounding environment using multi-sensor data. Based on the hybrid map, small and isolated frontier clusters that can lead to repeated movements are quickly detected, and their access in prioritized.
+</div>
+</div>
+
+<!-- - *2025.2* STEAM: Super Viewpoint and Topological Map Based Efficient Autonomous Exploration Method (Manuscript submitted to IEEE T-ITS ) -->
+
+
+# 🤝 Academic Service
+
+**Reviewer:** IEEE Robotics and Automation Letters (RA-L)、IEEE Transactions on Intelligent Transportation Systems (T-ITS)、IEEE Transactions on Robotics (T-RO)、IEEE International Conference on Robotics and Automation (ICRA)、IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+
+
 # 🔍 Main Projects
 
 
@@ -40,7 +79,7 @@ My research interest includes robotic exploration, especially multi-rotor UAV pl
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2024.06 - 2024.07</div>
-<img src='images/GIF/2024-7-15-feihang-sim.gif' alt="sym" width="100%">
+<img src="{{ '/images/GIF/2024-7-15-feihang-sim.gif' | relative_url }}" alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
@@ -61,7 +100,7 @@ With the theme of cooperative exploration of swarms in navigation and denial sce
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2023.11 - 2024.03</div>
-<img src='images/GIF/2023-12-11-grid-inspection.gif' alt="sym" width="100%">
+<img src="{{ '/images/GIF/2023-12-11-grid-inspection.gif' | relative_url }}" alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
@@ -82,7 +121,7 @@ In order to improve the level of intelligence and automation of power equipment 
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2022.08 - 2023.06</div>
-<img src='images/GIF/2023-6-11-fly.gif' alt="sym" width="100%">
+<img src="{{ '/images/GIF/2023-6-11-fly.gif' | relative_url }}" alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
@@ -103,7 +142,7 @@ Aiming at a variety of obstacles that may potentially threaten flight safety in 
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2022.12 - 2023.05</div>
-<img src='images/GIF/2023-5-7-vision-uavs.gif' alt="sym" width="100%">
+<img src="{{ '/images/GIF/2023-5-7-vision-uavs.gif' | relative_url }}" alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
@@ -117,38 +156,6 @@ In order to enhance the reconnaissance, surveillance and target identification c
 </div>
 </div>
 
-
-
-# 📝 Publications 
-<!-- https://api.github.com/repos/Poaos/SLIDER stargazers_count -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2026</div><img src='images/slider_cover.png' alt="SLIDER target-search framework" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SLIDER: Sparse History-Guided Aerial Robot Target Search Using Sliding Local Maps](https://ieeexplore.ieee.org/document/11614439)
-
-Xiaolei Hou †, **Zheng Pan †\***, Hua Lan, Zhenghao Zou, Yinhong Chen, Chenxi Zhu, Yang Lyu, Jinwen Hu, and Chunhui Zhao († Equal contribution; \* Corresponding author)
-
-Reference material: [**IEEE**](https://ieeexplore.ieee.org/document/11614439)    [**arXiv**](https://arxiv.org/abs/2607.10553)    [**Youtube**](https://youtu.be/zQBXoAjwBf4)    [**Bilibili**](https://www.bilibili.com/video/BV1ppKV64Ezg)    [**Github**](https://github.com/Poaos/SLIDER)    ![Github stars](https://img.shields.io/github/stars/Poaos/SLIDER.svg)
-
-Abstract: SLIDER is a lightweight, memory-efficient framework for aerial target search in large-scale unknown environments. It combines a sliding local map with sparse global history, evaluates observation quality online from historical poses and sensor models, and incrementally clusters viewpoints to reduce candidate targets and planning cost. A sparse global topological map supports long-range planning, while simulation and real-world flight experiments demonstrate improved memory usage, decision latency, and search efficiency.
-</div>
-</div>
-
-<!-- https://api.github.com/repos/Poaos/LAEA stargazers_count -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Drones 2024</div><img src='images/laea_cover1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[LAEA: A 2D LiDAR-Assisted UAV Exploration Algorithm for Unknown Environments](https://www.mdpi.com/2504-446X/8/4/128)
-
-Xiaolei Hou †,**Zheng Pan †**,Li Lu,Yuhang Wu,Jinwen Hu,Yang Lyu andChunhui Zhao (**First student author**)
-
-Reference material: [**PDF**](https://www.mdpi.com/2504-446X/8/4/128/pdf?version=1711707638)    [**Youtube**](https://youtu.be/_a1Vl518Ra8)   [**Github**](https://github.com/Poaos/LAEA)     ![Github stars](https://img.shields.io/github/stars/Poaos/LAEA.svg)   <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the environment and generates a hybrid map that characterizes the exploration value of the surrounding environment using multi-sensor data. Based on the hybrid map, small and isolated frontier clusters that can lead to repeated movements are quickly detected, and their access in prioritized.
-</div>
-</div>
-
-<!-- - *2025.2* STEAM: Super Viewpoint and Topological Map Based Efficient Autonomous Exploration Method (Manuscript submitted to IEEE T-ITS ) -->
 
 
 # 🎖 Honors and Awards
@@ -178,7 +185,7 @@ Abstract: LAEA utilizes 2D LiDAR to quickly acquire contour information from the
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2022.9-2022.12, 2023.5</div>
-<img src='images/GIF/2023-10-15-robocup.gif' alt="sym" width="100%">
+<img src="{{ '/images/GIF/2023-10-15-robocup.gif' | relative_url }}" alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
@@ -200,7 +207,7 @@ A UAV cargo transportation competition in an obstacle environment, which mainly 
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2020.11 - 2021.4</div>
-<img src='images/GIF/2021-4-logistics-handling.gif' alt="sym" width="100%">
+<img src="{{ '/images/GIF/2021-4-logistics-handling.gif' | relative_url }}" alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
@@ -221,7 +228,7 @@ With the theme of the reality and future development of intelligent manufacturin
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2019.9 - 2020.5</div>
-<img src='images/GIF/2020-4-an-elevator.gif' alt="sym" width="100%">
+<img src="{{ '/images/GIF/2020-4-an-elevator.gif' | relative_url }}" alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 

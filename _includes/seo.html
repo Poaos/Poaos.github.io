@@ -8,11 +8,22 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% assign seo_title = site.title %}
+{% if page.lang == 'zh-CN' %}
+  {% assign seo_title = site.author.name | append: ' - 学术主页' %}
+{% endif %}
+<title>{{ seo_title | escape }}{% unless page.lang == 'zh-CN' %} - Homepage{% endunless %}</title>
 
-{% assign seo_description = page.description | default: page.excerpt | default: site.description %}
+{% assign seo_description = page.description | default: page.excerpt | default: locale.description | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+  <meta name="description" content="{{ seo_description }}">
+{% endif %}
+
+{% if page.translation_key == 'home' %}
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -29,9 +40,9 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:locale" content="{{ locale.og_locale }}">
+<meta property="og:site_name" content="{{ seo_title | escape }}">
+<meta property="og:title" content="{{ seo_title | escape }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">

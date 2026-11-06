@@ -1,4 +1,7 @@
-<script src="assets/js/main.min.js"></script>
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+{% if page.translation_key == 'home' %}
+<script src="{{ '/assets/js/language-switcher.js' | relative_url }}"></script>
+{% endif %}
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

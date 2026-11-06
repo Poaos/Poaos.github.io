@@ -52,6 +52,13 @@ AcadHomepage
 1. 将你的主页内容添加到 [_pages/about.md](../_pages/about.md).
 1. 你的主页将会被部署到`https://USERNAME.github.io`.
 
+## 中英文内容维护
+
+- 英文首页 `/` 的内容位于 `_pages/about.md`，中文首页 `/zh/` 的内容位于 `_pages/about-zh.md`。新增论文、项目或获奖经历时，请同步更新两份内容。
+- 两种语言共用页面布局、图片和资源链接；界面文字位于 `_data/locales.yml`，导航名称位于 `_data/navigation.yml` 的 `title` 和 `title_zh` 字段。
+- 中文版一级标题使用固定的 HTML `id`，与英文版现有栏目锚点一致。修改栏目时请保持两种语言的锚点对应，以便导航和语言切换保留阅读位置。
+- 顶部 `English | 中文` 入口在当前标签页切换语言，英文首页仍为默认入口。
+
 ## 本地调试
 
 ### Ubuntu（推荐使用 Docker）

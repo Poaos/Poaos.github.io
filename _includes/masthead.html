@@ -1,16 +1,30 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="{{ locale.navigation_label }}">
+        <button type="button" aria-label="{{ locale.navigation_label }}"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ locale.home_url | relative_url }}#about-me" target="_self">{{ locale.homepage }}</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign anchor = link.url | split: '#' | last %}
+            <li class="masthead__menu-item"><a href="{{ locale.home_url | relative_url }}#{{ anchor }}" target="_self">{% if page.lang == 'zh-CN' %}{{ link.title_zh | default: link.title }}{% else %}{{ link.title }}{% endif %}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      {% if page.translation_key == 'home' %}
+      <nav class="language-switcher" aria-label="{{ locale.language_label }}">
+        {% if page.lang == 'zh-CN' %}
+        <a href="{{ '/' | relative_url }}" data-language-url="{{ '/' | relative_url }}" lang="en" hreflang="en" target="_self">English</a>
+        <span aria-hidden="true">|</span>
+        <span class="language-switcher__current" lang="zh-CN" aria-current="true">中文</span>
+        {% else %}
+        <span class="language-switcher__current" lang="en" aria-current="true">English</span>
+        <span aria-hidden="true">|</span>
+        <a href="{{ '/zh/' | relative_url }}" data-language-url="{{ '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" target="_self">中文</a>
+        {% endif %}
+      </nav>
+      {% endif %}
     </div>
   </div>
 </div>

@@ -1,21 +1,31 @@
 # main links links
 main:
   - title: "About Me"
+    title_zh: "个人简介"
     url: "/#about-me"
 
   - title: "News"
+    title_zh: "最新动态"
     url: "/#-news"
 
   - title: "Publications"
+    title_zh: "论文发表"
     url: "/#-publications"
 
+  - title: "Academic Service"
+    title_zh: "学术服务"
+    url: "/#-academic-service"
+
   - title: "Main Projects"
+    title_zh: "主要项目"
     url: "/#-main-projects"
 
   - title: "Honors and Awards"
+    title_zh: "荣誉奖励"
     url: "/#-honors-and-awards"
 
   - title: "Other Projects"
+    title_zh: "其他项目"
     url: "/#-other-projects"
 
   # - title: "Educations"

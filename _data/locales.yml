@@ -1,0 +1,30 @@
+en:
+  html_lang: en
+  og_locale: en
+  home_url: /
+  homepage: Homepage
+  navigation_label: Main navigation
+  language_label: Language
+  email: Email
+  website: Website
+  google_scholar: Google Scholar
+  weixin: Weixin
+  zhihu: Zhihu
+  citations: Citations
+
+zh-CN:
+  html_lang: zh-CN
+  og_locale: zh_CN
+  home_url: /zh/
+  homepage: 首页
+  navigation_label: 主导航
+  language_label: 语言切换
+  description: 专注于机器人自主探索，尤其是多旋翼无人机平台。
+  author_bio: 西北工业大学
+  location: 中国，陕西西安
+  email: 邮箱
+  website: 个人网站
+  google_scholar: Google 学术
+  weixin: 微信公众号
+  zhihu: 知乎
+  citations: 引用次数
